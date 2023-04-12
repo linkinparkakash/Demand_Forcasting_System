@@ -1,0 +1,6 @@
+pandas
+numpy
+noteboook
+scikit-learn
+joblib
+flask
