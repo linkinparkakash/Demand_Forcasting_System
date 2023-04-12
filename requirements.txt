@@ -4,3 +4,5 @@ noteboook
 scikit-learn
 joblib
 flask
+mkdocs-material
+-e .

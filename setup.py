@@ -18,4 +18,3 @@ setup(name=SRC_REPO,
       packages=SRC_REPO,
       python_requires=">=3.10",
       install_requires=LIST_OF_REQUIREMENTS)
-
