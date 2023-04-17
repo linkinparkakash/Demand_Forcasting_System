@@ -1,4 +1,3 @@
-from logger import logging
 from flask import Flask, render_template, request
 import joblib
 import pandas as pd
@@ -48,4 +47,4 @@ def predict():
          raise DemandForcastingException(error_message=e, error_detail=sys)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port = 8000)
