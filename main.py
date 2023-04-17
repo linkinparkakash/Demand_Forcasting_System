@@ -1,9 +1,9 @@
-from flask import flask, render_template, request
-from Demand_Forcasting_System.data_validation import DataValidator
-from Demand_Forcasting_System.pre_processing import DemandForecasting
+from flask import Flask, render_template, request
 import joblib
 import pandas as pd
-from Demand_Forcasting_System.exception import DemandForcastingException
+from Demand_Forcasting_Sales.data_validation import DataValidator
+from Demand_Forcasting_Sales.pre_processing import Preprocessing
+
 
 app = Flask(__name__)
 
